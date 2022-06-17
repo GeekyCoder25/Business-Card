@@ -9,10 +9,8 @@ const Header = () => {
             <h1>Geeky Coder</h1>
             <p>Frontend Developer</p>
             <a href="https://geekycoder25.github.io/Portfolio/" target="_blank"  rel="noreferrer"className='weblink'>geekycoder.website</a><br />
-            <a href="toyibe25@gmail.com">
-
-                <button className='email'> <a
-                    href="mailto:toyibe25@gmail.com" rel="noreferrer">toyibe25@gmail.com<i className="fas fa-envelope"></i> Email</a></button>
+            <a href="mailto:toyibe25@gmail.com" target="_blank"  rel="noreferrer">
+                <button className='email'><i className="fas fa-envelope"></i> Email</button>
             </a>
             <a href="https://www.linkedin.com/in/toyib-lawal" target="_blank" rel="noreferrer">
                 <button className='linkedin'><i className="fab fa-linkedin"></i> LinkedIn</button>
