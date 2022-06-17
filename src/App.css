@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.AppContent{
+    position: relative;
+    left: 5vw;
+    top: 50px;
+    width: 90vw;
+    min-height: 80vh;
+    border-radius: 15px;
+    padding: 0 50px;
+    background-color: #282c34;
+    color: #fff;
+    overflow-x: hidden;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.profile-logo{
+    border-radius: 20px;
+    width: 350px;
+}
+header {
+    text-align: center;
+}
+header  a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+header  a:hover{
+    color: blue;
+}
+button{
+    padding: 12px 30px;
+    margin: 30px 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 750;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+header .email:hover{
+    background: transparent;
+    padding: 11px 29px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+header .linkedin{
+    background-color: rgb(70, 97, 216);
+    color: #fff;
+}
+header .linkedin:hover{
+    padding: 11px 29px;
+    background: transparent;
+    border: 1px solid rgb(70, 97, 216);
+}
+header .fas, header .fab{
+    font-size: 20px;
+    margin-right: 10px;
+    transform: translateY(2px);
+}
+article h3{
+    margin: 20px 0  5px 0;
+}
+.interest p{
+    margin-bottom: 200px;
+}
+footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background: #000;
+    width: 90vw;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+footer .fab{
+    flex: 1;
+    margin-right:30px;
+    font-size: 30px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
